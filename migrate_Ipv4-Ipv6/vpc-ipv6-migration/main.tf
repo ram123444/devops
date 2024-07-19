@@ -1,0 +1,25 @@
+# terraform {
+#   required_providers {
+#     mycloud = {
+#       source  = "hashicorp/aws"
+#       version = "~> 1.5.5"
+#     }
+#   }
+# # }
+# provider "aws" {
+#    region = "ap-south-1"
+ 
+# }
+
+
+# module "ipv6-migration" {
+#   source = "./modules/ipv6-migration"
+#   vpc_id_value = "vpc-04aa362bd39b237b4"
+#   public_subnet_id = "subnet-051b8fcedc96e759f"
+#   private_subnet_id = "subnet-0161c663a18679a1c"
+#   public_route_table_id = "rtb-01737d72e26a72241"
+#   igw_id = "igw-0155f8387317429a9"
+#   private_route_table_id = "rtb-0c57823a402e6f00f"
+#   security_group_id = "sg-0142e69db407b8400"
+#   instance_id = "i-0a117fa9a8c093020"
+# }
